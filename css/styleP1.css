@@ -21,9 +21,9 @@
 /*------------------------block1------------------------*/
 
 .block1 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100vw;
-    height: 90vh;
+    height: 95vh;
     width: 100vw;
     background-image: url(../img/img11.1.jpg);
     background-position: 0% 30%;
@@ -81,12 +81,23 @@
 }
 
 .block1__phrase2 {
-
 }
 
 @media(max-width: 850px){
     .block1__separator {
         width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .block1__separator {
+        width: 130%;
+    }
+}
+
+@media(max-width: 426px){
+    .block1 {
+        background-position: 20% 30%;
     }
 }
 

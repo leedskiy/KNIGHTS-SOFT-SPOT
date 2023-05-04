@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/*------------------------main------------------------*/
+
+.main {
+}
+.main__container {
+}
+
+/*------------------------block1------------------------*/
+
+.block1 {
+    border: 2px solid red;
+}
+
+.block {
+}
+.block1__container {
+}
+.__container {
+}
+.block1__text {
+}
+.block__text {
+}
+.block1__name {
+}
+.block1__phrase1 {
+}
+.block1__phrase2 {
+}
+.block2 {
+}
+.block2__container {
+}
+.block2__text {
+}
+.block2__title {
+}
+.block2__paragraph {
+}
+.block3 {
+}
+.block3__container {
+}
+.block3__text {
+}
+.block3__title {
+}
+.block3__paragraph {
+}
+.block4 {
+}
+.block4__container {
+}
+.block4__text {
+}
+.block4__list {
+}
+.block4__item {
+}
+.block4__paragraph {
+}
+.block5 {
+}
+.block5__container {
+}
+.block5__text {
+}
+.block5__title {
+}
+.block5__paragraph {
+}
+.block5__list {
+}
+.block5__element {
+}
+.block5__option {
+}
+.link {
+}
+.block6 {
+}
+.block6__container {
+}
+.block6__text {
+}
+.block6__title {
+}
+.block6__paragraph {
+}

@@ -32,8 +32,11 @@ headerItems.forEach(elem => {
             el.classList.remove("bb-active");
             el.classList.add("bb-not-active");
         })
-        overlay.classList.toggle("overlay-not-active");
-        overlay.classList.toggle("overlay-active");
+        
+        if (overlay.classList.contains("overlay-active")) {
+            overlay.classList.toggle("overlay-not-active");
+            overlay.classList.toggle("overlay-active");
+        }
     })
 });
 

@@ -10,28 +10,56 @@
 /*------------------------block------------------------*/
 
 .block {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .block__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
 }
 
 .block__text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.block__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+@media(max-width: 426px){
+    .block__text {
+        gap: 35px;
+    }
+
+    .block__body {
+        max-width: 80%;
+    }
 }
 
 /*------------------------block1------------------------*/
 
 .block1 {
-    width: 100vw;
     height: 95vh;
-    width: 100vw;
     background-image: url(../img/img11.1.jpg);
     background-position: 0% 30%;
     background-size: cover;
     object-fit: cover;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .block1__background {
@@ -46,19 +74,11 @@
 }
 
 .block1__container {
-    padding: 30px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .block1__text {
     color: #ffffff;
     text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     text-transform: uppercase;
 }
@@ -103,15 +123,34 @@
 /*------------------------block2------------------------*/
 
 .block2 {
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 1);
 }
+
 .block2__container {
+    padding: 170px 0;
 }
+
 .block2__text {
+    gap: 45px;
 }
+
 .block2__title {
 }
+
+.block2__body {
+}
+
 .block2__paragraph {
 }
+
+@media(max-width: 426px){
+    .block2__container {
+        padding: 150px 0;
+    }
+}
+
+/*------------------------block3------------------------*/
+
 .block3 {
 }
 .block3__container {
@@ -119,6 +158,8 @@
 .block3__text {
 }
 .block3__title {
+}
+.block3__body {
 }
 .block3__paragraph {
 }
@@ -147,6 +188,7 @@
 .block5__list {
 }
 .block5__element {
+    position: relative;
 }
 .block5__option {
 }
@@ -159,6 +201,8 @@
 .block6__text {
 }
 .block6__title {
+}
+.block6__body {
 }
 .block6__paragraph {
 }

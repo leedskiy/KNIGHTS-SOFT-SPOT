@@ -208,7 +208,7 @@ body {
   position: fixed;
   background-color: #ffffff;
   width: 100%;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
   z-index: 77;
 }
 
@@ -490,8 +490,9 @@ body {
   background-color: #ffffff;
   width: 100%;
   padding: 0 30px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
-  height: 68px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+  height: 69px;
+  z-index: 20;
 }
 
 .footer__container {

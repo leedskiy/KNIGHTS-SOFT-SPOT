@@ -9,11 +9,11 @@ function windowSizeChange() {
     elemWidth = elem.clientWidth;
 
     if(elemWidth < 650) {
-        block1Text.innerHTML = `<h1 class="block1__name">KNIGHT'S<br/>SOFT SPOT</h1>
+        block1Text.innerHTML = `<h1 class="block1__name">KNIGHT'S<br>SOFT SPOT</h1>
         <div class="block1__separator"></div>
-        <h3 class="block1__phrase1">Even knights<br/>can't resist pets</h3>
-        <h3 class="block1__phrase2">Shelter a new<br/>friend in<br/>your castle</h3>`;
-        block5Paragraph.innerHTML = `There are many others<br/> which also need your help. <br/>Here you can find some of
+        <h3 class="block1__phrase1">Even knights<br>can't resist pets</h3>
+        <h3 class="block1__phrase2">Shelter a new<br>friend in<br>your castle</h3>`;
+        block5Paragraph.innerHTML = `There are many others<br> which also need your help. <br>Here you can find some of
         them:`;
     }
     else {
@@ -21,7 +21,7 @@ function windowSizeChange() {
         <div class="block1__separator"></div>
         <h3 class="block1__phrase1">Even knights can't resist pets</h3>
         <h3 class="block1__phrase2">Shelter a new friend in your castle</h3>`;
-        block5Paragraph.innerHTML = `There are many others which also need your help. <br/>Here you can find some of
+        block5Paragraph.innerHTML = `There are many others which also need your help. <br>Here you can find some of
         them:`;
     }
 }

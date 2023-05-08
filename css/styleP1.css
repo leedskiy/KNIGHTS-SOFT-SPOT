@@ -403,10 +403,6 @@
     justify-content: center;
 }
 
-.block5__element a{
-    color: #ffffff;
-}
-
 .block5__item {
     flex: 0 0 auto;
     position: relative;

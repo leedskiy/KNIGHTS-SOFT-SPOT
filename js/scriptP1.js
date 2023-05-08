@@ -7,7 +7,7 @@ window.addEventListener("resize", windowSizeChange);
 function windowSizeChange() {
     elemWidth = elem.clientWidth;
 
-    if(elemWidth < 600) {
+    if(elemWidth < 650) {
         block1Text.innerHTML = `<h1 class="block1__name">KNIGHT'S<br/>SOFT SPOT</h1>
         <div class="block1__separator"></div>
         <h3 class="block1__phrase1">Even knights<br/>can't resist pets</h3>

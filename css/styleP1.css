@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 190px 0;
+    padding: 190px 40px;
 }
 
 .block__text {
@@ -45,7 +45,7 @@
 
 @media(max-width: 426px){
     .block__container {
-        padding: 170px 0;
+        padding: 170px 30px;
     }
 
     .block__text {
@@ -85,7 +85,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 70px 0;
+    padding: 70px 40px;
 }
 
 .blockBg__text {
@@ -110,6 +110,10 @@
 }
 
 @media(max-width: 426px){
+    .blockBg__container {
+        padding: 70px 30px;
+    }
+
     .blockBg__text {
         gap: 35px;
     }
@@ -130,7 +134,7 @@
 }
 
 .block1__text {
-    gap: 10px;
+    gap: 15px;
     text-transform: uppercase;
 }
 
@@ -169,6 +173,14 @@
     .block1 {
         background-position: 20% 30%;
     }
+
+    .block1__background {
+        padding: 50px 30px;
+    }
+
+    .block1__text {
+        gap: 10px;
+    }
 }
 
 /*------------------------block2------------------------*/
@@ -198,7 +210,6 @@
 }
 
 .block3__background {
-    padding: 0px 40px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -206,8 +217,6 @@
 }
 
 .block3__text {
-    color: #ffffff;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
 
 .block3__title {
@@ -232,18 +241,72 @@
 /*------------------------block4------------------------*/
 
 .block4 {
+    min-height: 90vh;
 }
+
 .block4__container {
+    padding: 130px 40px;
 }
+
 .block4__text {
 }
-.block4__list {
+
+.block4__title {
 }
+
+.block4__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.block4__left {
+    flex: 0 0 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.block4__img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.block4__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block4__list {
+    max-width: 100%;
+    text-align: left;
+}
+
 .block4__item {
 }
+
 .block4__paragraph {
 }
+
+@media(max-width: 426px){
+    .block4__container {
+        padding: 100px 30px;
+    }
+
+    .block4__main {
+        flex-direction: column;
+    }
+
+    .block3__left {
+        flex: 0 0 auto;
+    }
+}
+
+/*------------------------block5------------------------*/
+
 .block5 {
+    background-image: url(../img/img13.1.jpeg);
 }
 .block5__container {
 }

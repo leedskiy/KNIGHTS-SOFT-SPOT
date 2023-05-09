@@ -309,8 +309,49 @@ input[type="checkbox"]:checked {
 /*-------------section5-------------*/
 
 .form1__section5 {
+    flex-direction: row;
+    width: 100%;
 }
+
+.section5__button {
+    background-color: unset;
+    font-size: 1.8rem;
+    line-height: 30px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.4s;
+}
+
+.section5__button:hover {
+    border: 2px solid #3f3f3f;
+    transition-duration: 0.4s;
+}
+
+.section5__button:active {
+    border: 2px solid #3f3f3f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition-duration: 0.4s;
+}
+
 .section5__button1 {
 }
+
 .section5__button2 {
+}
+
+@media(max-width: 426px){
+    .form1__section5 {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .section5__button {
+        height: 50px;
+        width: 110px;
+        font-size: 1.4rem;
+        line-height: 23px;
+    }
 }

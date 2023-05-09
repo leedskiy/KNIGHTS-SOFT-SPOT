@@ -248,6 +248,7 @@ body {
 .SBtn-active:hover {
   opacity: 70%;
   transition: opacity 0.3s;
+  cursor: pointer;
 }
 
 .SBtn-active:active {

@@ -1,5 +1,4 @@
 function ativateScript() {
-
     const header = document.querySelector(".header");
     const headerList = document.querySelector(".header__list");
     const headerItems = document.querySelectorAll(".header__item");

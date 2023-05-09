@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*------------------------main------------------------*/
+
+.main {
+}
+
+.main__container {
+    padding: 70px 40px;
+}
+
+@media(max-width: 426px){
+    .main__container {
+        padding: 50px 30px;
+    }
+}
+
+/*------------------------123------------------------*/

@@ -1,8 +1,14 @@
 function ativateSbtnSctipt() {
     const elem = document.documentElement;
-    const elemHeight = elem.clientHeight;
+    let elemHeight = elem.clientHeight;
     const SBtn = document.querySelector('.SBtn');
     let windowScrollTop = window.pageYOffset;
+
+    function windowSizeChange() {
+        elemHeight = elem.clientHeight;
+    }
+
+    window.addEventListener("resize", windowSizeChange);
 
     function scroll() {
         window.scrollTo(0, 0);
@@ -12,8 +18,6 @@ function ativateSbtnSctipt() {
         windowScrollTop = parseInt(window.pageYOffset);
 
         if (windowScrollTop > elemHeight){
-            console.log(windowScrollTop);
-
             if(!(SBtn.classList.contains('SBtn-active'))) {
                 SBtn.classList.toggle('SBtn-not-active');
                 SBtn.classList.toggle('SBtn-active');

@@ -3,8 +3,6 @@ let elemWidth = elem.clientWidth;
 const block1Text = document.querySelector('.block1__text');
 const block5Paragraph = document.querySelector('.block5__paragraph');
 
-window.addEventListener("resize", windowSizeChange);
-
 function windowSizeChange() {
     elemWidth = elem.clientWidth;
 
@@ -27,3 +25,5 @@ function windowSizeChange() {
 }
 
 windowSizeChange();
+
+window.addEventListener("resize", windowSizeChange);

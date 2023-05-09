@@ -256,12 +256,54 @@ input[type="checkbox"]:checked {
 /*-------------section4-------------*/
 
 .form1__section4 {
+    width: 100%;
 }
+
 .section4__title {
 }
+
 .section4__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .section4__textarea {
+    resize: none;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid #000000;
+    font-size: 1.4rem;
+    line-height: 23px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.4s;
+}
+
+.section4__textarea:hover {
+    border: 2px solid #3f3f3f;
+    transition-duration: 0.4s;
+}
+
+.section4__textarea:focus {
+    border: 2px solid #3f3f3f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition-duration: 0.4s;
+}
+
+@media(max-width: 850px){
+    .section4__textarea {
+        height: 200px;
+    }
+}
+
+@media(max-width: 426px){
+    .section4__textarea {
+        font-size: 1.2rem;
+        line-height: 17px;
+    }
 }
 
 /*-------------section5-------------*/

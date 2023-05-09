@@ -48,7 +48,6 @@
     grid-template-rows: repeat(5, 1fr);
     font-size: 1.8rem;
     line-height: 30px;
-    border: 2px solid #000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     width: 70vw;

@@ -61,7 +61,108 @@
         <div class="main">
             <div class="main__container __container">
                 <div class="main__content">
-                    
+                    <h2 class="main__title">
+                        Make a donation
+                    </h2>
+
+                    <p class="main__info">(you will receive further instructions via email)</p>
+
+                    <form action="#" class="main__form1" method="post">
+                        <div class="from1__section1 from1__section">
+                            <h3 class="section1__title">
+                                Contacts
+                            </h3>
+
+                            <div class="section1__body">
+                                <div class="section1__item section__item">
+                                    <label for="name" class="section1__label"></label>
+
+                                    <input type="text" class="section1__input" id="name" name="name" required
+                                        placeholder="First name">
+
+                                    <p class="section1__error">* It is required to input your name</p>
+                                </div>
+
+                                <div class="section1__item section__item">
+                                    <label for="surname" class="section1__label"></label>
+
+                                    <input type="text" class="section1__input" id="surname" name="surname" required
+                                        placeholder="Last name">
+
+                                    <p class="section1__error">* It is required to input your surname</p>
+                                </div>
+
+                                <div class="section1__item section__item">
+                                    <label for="email" class="section1__label"></label>
+
+                                    <input type="email" class="section1__input" id="email" name="email" required
+                                        autocomplete="off" placeholder="example@mail.com">
+
+                                    <p class="section1__error">* It is required to input your email</p>
+                                </div>
+
+                                <div class="section1__item section__item">
+                                    <label for="number" class="section1__label"></label>
+
+                                    <input type="number" class="section1__input" id="number" name="number" required
+                                        pattern='[0-9]{10}' placeholder="+000 (00) 000 00 00">
+
+                                    <p class="section1__error">* It is required to input your number</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form1__section2 form1__section">
+                            <h3 class="section2__title">
+                                I will donate by
+                            </h3>
+
+                            <div class="section2__body">
+                                <div class="section2__item section__item">
+                                    <input type="radio" class="section2__input" id="pay_method1" name="pay_method"
+                                        value="card" checked>
+                                    <label for="pay_method1" class="section2__label">Card</label>
+                                </div>
+
+                                <div class="section2__item section__item">
+                                    <input type="radio" class="section2__input" id="pay_method2" name="pay_method"
+                                        value="cash">
+                                    <label for="pay_method2" class="section2__label">Cash</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form1__section3 form1__section">
+                            <h3 class="section2__title">
+                                I want to receive news
+                            </h3>
+
+                            <div class="section3__body">
+                                <div class="section3__item section__item">
+                                    <input type="checkbox" class="section3__input" id="news" name="news" value="yes">
+                                    <label for="news" class="section3__label">Yes</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form1__section4 form1__section">
+                            <h3 class="section4__title">
+                                Comments
+                            </h3>
+
+                            <div class="section4__item section__item">
+                                <label for="comments" class="section1__label"></label>
+
+                                <textarea class="section4__textarea" id="comments" name="comments">
+                                </textarea>
+                            </div>
+                        </div>
+
+                        <div class="form1__section5 form1__section">
+                            <button class="section5__button1" type="submit">Submit</button>
+                            <button class="section5__button2" type="reset">Reset</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

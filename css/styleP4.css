@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*------------------------main------------------------*/
+
+.main {
+}
+
+.main__container {
+    padding: 70px 40px;
+}
+
+.main__title {
+}
+
+.main__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+@media(max-width: 426px){
+    .main__container {
+        padding: 50px 30px;
+    }
+
+    .main__body {
+        gap: 35px;
+    }
+}
+
+/*------------------------123------------------------*/

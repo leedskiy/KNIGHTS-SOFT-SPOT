@@ -170,6 +170,7 @@
 
 .section2__input {
 }
+
 .section2__label {
 }
 
@@ -212,12 +213,36 @@ input[type="radio"]:checked {
 .section3__item {
     font-size: 1.4rem;
     line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .section3__input {
 }
 
 .section3__label {
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #ffffff;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #b3b3b3;
+    transition-duration: 0.4s;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #000000;
+    transition-duration: 0.2s;
 }
 
 @media(max-width: 426px){

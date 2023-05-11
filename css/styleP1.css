@@ -70,6 +70,7 @@
     background-size: cover;
     object-fit: cover;
     background-attachment: fixed;
+    background-size: 100vmax;
     background-repeat: no-repeat;
 }
 

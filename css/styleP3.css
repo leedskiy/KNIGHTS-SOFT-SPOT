@@ -80,7 +80,13 @@
     }
 }
 
-@media(max-width: 325px){
+@media(max-width: 370px){
+    .table1__body {
+        width: 83vw;
+    }
+}
+
+@media(max-width: 340px){
     .table1__body {
         font-size: 1rem;
     }

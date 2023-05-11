@@ -11,7 +11,7 @@
     pet's life and find a new friend for yourself.)
 </h4>
 <h4>
-    link:
+    link: leedskiy.github.io/KNIGHTS-SOFT-SPOT
 </h4>
 <h4>
     Tap on the link below to open the website.

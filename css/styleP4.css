@@ -334,6 +334,7 @@ input[type="checkbox"]:checked {
     border: 2px solid #000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transition-duration: 0.4s;
+    font-weight: normal;
 }
 
 .section5__button:hover {

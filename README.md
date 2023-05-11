@@ -2,7 +2,7 @@
 
 <h3>
     KNIGHT'S SOFT SPOT is non-existent shelter for pets. On the website you can see the information about the shelter,
-    the gallery of the shelter with the video and photos. Also there is a table with the statistics and the form
+    the gallery of the shelter with the video and photos. There is also a table with the statistics and the form
     for making donations (not real).
 </h3>
 <h4>
@@ -11,7 +11,7 @@
     pet's life and find a new friend for yourself.)
 </h4>
 <h4>
-    link: leedskiy.github.io/KNIGHTS-SOFT-SPOT
+    link: https://leedskiy.github.io/KNIGHTS-SOFT-SPOT/
 </h4>
 <h4>
     Tap on the link below to open the website.

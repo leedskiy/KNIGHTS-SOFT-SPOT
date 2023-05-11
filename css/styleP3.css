@@ -41,6 +41,7 @@
 }
 
 .table1__caption {
+    order: 1;
 }
 
 .table1__body {
@@ -55,6 +56,7 @@
     height: 70vh;
     min-height: 400px;
     max-height: 700px;
+    order: 2;
 }
 
 @media(max-width: 700px){
@@ -230,4 +232,22 @@
 .table1__elem12 {
     background-color: rgb(232, 232, 232);
     border-bottom-right-radius: 20px;
+}
+
+/*-------------summary-------------*/
+
+.table1__summary {
+    order: 3;
+    width: 70vw;
+    max-width: 1200px;
+}
+
+.table1__paragraph {
+    font-size: 1rem;
+}
+
+@media(max-width: 700px){
+    .table1__summary {
+        width: 80vw;
+    }
 }

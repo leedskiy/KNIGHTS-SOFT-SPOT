@@ -73,22 +73,11 @@
     }
 
     .table1__body {
+        width: 85vw;
         height: 50vh;
         min-height: 300px;
-        font-size: 1.2rem;
-        line-height: 17px;  
-    }
-}
-
-@media(max-width: 370px){
-    .table1__body {
-        width: 83vw;
-    }
-}
-
-@media(max-width: 340px){
-    .table1__body {
         font-size: 1rem;
+        line-height: 17px;
     }
 }
 
@@ -255,5 +244,11 @@
 @media(max-width: 700px){
     .table1__summary {
         width: 80vw;
+    }
+}
+
+@media(max-width: 426px){
+    .table1__summary {
+        width: 85vw;
     }
 }

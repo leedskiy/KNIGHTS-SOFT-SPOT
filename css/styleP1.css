@@ -457,3 +457,19 @@
 
 .block6__paragraph {
 }
+
+/*------------------------print------------------------*/
+
+@media print {
+    h2 {
+        page-break-before: always;
+    }
+
+    .block {
+        box-shadow: none;
+    }
+
+    .blockBg__text {
+        color: #000000;
+    }
+}

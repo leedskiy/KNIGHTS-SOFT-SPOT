@@ -144,3 +144,11 @@
         gap: 35px;
     }
 }
+
+/*------------------------print------------------------*/
+
+@media print {
+    .photogrid__img {
+        page-break-before: always;
+    }
+}

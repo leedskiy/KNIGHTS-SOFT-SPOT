@@ -580,3 +580,23 @@ body {
 
 .footer__link {
 }
+
+/*------------------------print------------------------*/
+
+@media print {
+  body {
+    color: #000000;
+  }
+
+  .link-light a{
+    color: #000000;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+}

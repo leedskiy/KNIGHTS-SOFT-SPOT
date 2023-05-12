@@ -30,12 +30,6 @@ function ativateP3Script() {
         table1Elem10.innerHTML = `${catsTotal}`
         table1Elem11.innerHTML = `${dogsTotal}`
         table1Elem12.innerHTML = `${animalsTotal}`
-
-        mainTable1.setAttribute(`summary`, `Statistics of &ldquo;KNIGHT'S SOFT SPOT&rdquo; shelter. 
-        There are ${catsIn} cats, ${dogsIn} dogs and in total ${animalsIn} pets in the shelter.
-        ${catsAdopted} cats, ${dogsAdopted} dogs and in total ${animalsAdopted} animals were adopted.
-        In general (in the shelter and adopted) count of cats is ${catsTotal}, 
-        count of dogs is ${dogsTotal}, together ${animalsTotal} pets.`)
     }
 }
 

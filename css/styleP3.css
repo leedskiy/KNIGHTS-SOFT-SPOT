@@ -44,15 +44,15 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    pointer-events: none;
 }
 
 .table1__title {
+    
 }
 
 .table1__details {
     text-align: left;
-    pointer-events: none;
+    cursor: text;
 }
 
 .table1__summary {

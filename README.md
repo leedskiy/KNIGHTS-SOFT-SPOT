@@ -13,6 +13,3 @@
 <h4>
     link: https://leedskiy.github.io/KNIGHTS-SOFT-SPOT/
 </h4>
-<h4>
-    Tap on the link below to open the website.
-</h4>
